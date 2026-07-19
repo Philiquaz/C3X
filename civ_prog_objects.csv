@@ -999,3 +999,37 @@ ignore,	   0x4BF660,	0x4C6C10,	0x4BF6F0,	"City_draw_citizens",				"void (__fastc
 ignore,	   0x4B9F60,	0x4C15D0,	0x4B9FF0,	"City_add_population",				"void (__fastcall *) (City * this, int edx, int num, int race_id)"
 ignore,	   0x670234,	0x68D2E0,	0x670234,	"Tile_m27_Check_Shield_Bonus",			"bool (__fastcall *) (Tile * this)"
 ignore,	   0x5f3448,	0x6032DF,	0x5F3378,	"CHECK_SHIELD_BONUS_TO_CAN_SPAWN_RES_RETURN",	"int"
+
+define,    0x5F14E4,    0x601204,   0x1,        "ADDR_GEN_PARAM_TEMP_JUNGLE_MAX",           "int *"
+define,    0x5F14EC,    0x60120C,   0x1,        "ADDR_GEN_PARAM_TEMP_TUNDRA_MIN",           "int *"
+define,    0x5F14F4,    0x601214,   0x1,        "ADDR_GEN_PARAM_TEMP_TUNDRA_MAX",           "int *"
+define,    0x5F14AD,    0x6011CD,   0x1,        "ADDR_GEN_PARAM_TEMP_SWAMP_MAX_EBP",        "int *"
+define,    0x5F14A3,    0x6011C3,   0x1,        "ADDR_GEN_PARAM_TEMP_SWAMP_FACTOR_EDX_ECX", "int *"
+
+define,    0x5F14B2,    0x6011D2,   0x1,        "ADDR_GEN_PARAM_ARID_SWAMP_JUNGLE_EBX",     "int *"
+define,    0x5F14A3,    0x6011C3,   0x1,        "ADDR_GEN_PARAM_TEMP_SWAMP_GRASS_EDX_ECX",  "int *"
+define,    0x5F157C,    0x6012A0,   0x1,        "ADDR_GEN_PARAM_ARID_PLAINS_MIN",           "int *"
+define,    0x5F1584,    0x6012A8,   0x1,        "ADDR_GEN_PARAM_ARID_PLAINS_MAX",           "int *"
+define,    0x5F158C,    0x6012B0,   0x1,        "ADDR_GEN_PARAM_ARID_DESERT_MIN",           "int *"
+define,    0x5F1594,    0x6012B8,   0x1,        "ADDR_GEN_PARAM_ARID_DESERT_MAX",           "int *"
+
+define,    0x5EDC3B,    0x5FD62F,   0x1,        "ADDR_GEN_PARAM_AGE_HILL_MIN_ABOVE_MIN",    "byte *"
+define,    0x5EDC42,    0x5FD63A,   0x1,        "ADDR_GEN_PARAM_AGE_HILL_MAX_ABOVE_MIN",    "byte *"
+define,    0x5EDC51,    0x5FD649,   0x1,        "ADDR_GEN_PARAM_AGE_HILL_MIN",              "byte *"
+define,    0x5EDC60,    0x5FD658,   0x1,        "ADDR_GEN_PARAM_AGE_MTN_MIN",               "byte *"
+define,    0x5EDC74,    0x5FD670,   0x1,        "ADDR_GEN_PARAM_AGE_HILL_MTN_MAX",          "byte *"
+define,    0x5EDC72,    0x5FD66E,   0x1,        "ADDR_GEN_PARAM_AGE_MTN_RATIO",             "byte *"
+
+define,    0x5ECEE3,    0x5FC813,   0x1,        "ADDR_GEN_PARAM_WATER_LAND_0",              "int *"
+define,    0x5ECEEB,    0x5FC81B,   0x1,        "ADDR_GEN_PARAM_WATER_COAST_0",             "int *"
+define,    0x5ECEFA,    0x5FC82A,   0x1,        "ADDR_GEN_PARAM_WATER_LAND_1",              "int *"
+define,    0x5ECF02,    0x5FC832,   0x1,        "ADDR_GEN_PARAM_WATER_COAST_1",             "int *"
+define,    0x5ECF23,    0x5FC853,   0x1,        "ADDR_GEN_PARAM_WATER_LAND_23",              "int *"
+define,    0x5ECF2B,    0x5fc85B,   0x1,        "ADDR_GEN_PARAM_WATER_COAST_23",             "int *"
+define,    0x5ECF11,    0x5FC841,   0x1,        "ADDR_GEN_PARAM_WATER_LAND_4",              "int *"
+define,    0x5ECF19,    0x5FC849,   0x1,        "ADDR_GEN_PARAM_WATER_COAST_4",             "int *"
+
+define,    0x5E1FB6,    0x5F17C7,   0x1,        "ADDR_GEN_TRENCH_CALL",                     "byte *"
+define,    0x5E215B,    0x5F196B,   0x1,        "ADDR_GEN_TRENCH_LIMIT",                    "byte *"
+
+define,    0x5ECFD1,    0x5FC8FC,   0x1,        "ADDR_GEN_ARCHIPELAGO_CONFIG_SCALE",         "byte *"
